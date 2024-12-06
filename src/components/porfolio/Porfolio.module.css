@@ -1,0 +1,39 @@
+.portfolio{
+    width: 100%;
+    padding:144px 32px;
+    text-align: center;
+    background-color: #0a0908;
+}
+
+.topHeading{
+font-size: 48px;
+line-height: 2.5rem /* 40px */;
+}
+.topHeading span{
+    color: #5170ab;
+}
+.topPara{
+    width: 80%;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px ;
+}
+@media(max-width:390px){
+    .portfolio{
+        padding:50px 16px;
+    }
+    
+    .topHeading{
+    font-size: 48px;
+    line-height: 2.5rem /* 40px */;
+    }
+    .topHeading span{
+        color: #5170ab;
+    }
+    .topPara{
+        width: 100%;
+      
+        font-size: 14px ;
+    }
+}

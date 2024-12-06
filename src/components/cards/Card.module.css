@@ -1,0 +1,57 @@
+.card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)  ;
+    gap: 112px;
+    margin-top: 96px;
+}
+
+
+.cardChildDiv{
+    display: flex;
+    flex-direction: column ;
+}
+.cardChildDiv{
+    width: 100%;
+    border-radius: 24px;
+    overflow: hidden;
+    transition: all 0.9s;
+}
+
+.cardsImg{
+width: 100%; 
+  border-radius: 24px; 
+  overflow: hidden; 
+  transition: all 0.9s; 
+}
+
+.img{
+    width: 100%;
+    border-radius: 24px;
+    transition: all 0.9s;
+
+    &&  :hover {
+        transform: scale(1.10) rotate(-5deg);
+      }
+      
+}
+
+   
+@media(max-width: 768px){
+    .card{
+        grid-template-columns: repeat(2, 1fr)  ;
+
+    }
+} 
+
+@media(max-width: 390px){
+    .card{
+        grid-template-columns: repeat(1, 1fr)  ;
+        gap: 60px;
+
+
+    }
+} 
+  
+  
+  

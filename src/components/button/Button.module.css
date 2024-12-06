@@ -1,0 +1,12 @@
+.button {
+    background-color: #3b547f;
+    padding: .66rem 3rem .66rem 3rem;   
+    border-radius: .5rem;
+    display: inline-block;
+    margin: auto;
+    transition: background-color 1.2s ease; 
+
+    &:hover{
+        background-color: #678cd7;
+    }
+}

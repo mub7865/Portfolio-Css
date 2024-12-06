@@ -1,0 +1,145 @@
+.contactParent{
+    padding: 160px 32px;
+    background-color: var( --background-2);
+}
+
+.contact{
+    text-align: center
+}
+
+.topHeading{
+    font-size: 48px;
+}
+
+.topHeading span{
+    color: var(--logoColor);
+}
+
+.topPara{
+    width: 80%;
+    margin-top: 24px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contInfoParent{
+    margin-top: 96px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+}
+.contInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+}
+
+.infoParent{
+    display: flex;
+    margin-bottom: 48px;
+    align-items: start;
+}
+
+.icon{
+    font-size: 24px;
+    margin-right: 16px;
+    color: var(--logoColor);
+}
+.info{
+    text-align: start;
+}
+.p2{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #678cd7;
+}
+.p3{
+ color: #5170ab;
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.formChild{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.inp1{
+    padding: 12px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    background-color: var(--background-darkBlue);
+    outline-width: 0px;
+}
+
+.inp2{
+    width: 100%;
+    padding: 12px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    background-color: var(--background-darkBlue);
+    outline-width: 0px;
+}
+
+.txtAr{
+    width: 100%;
+    min-height: 224px;
+    padding: 12px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    background-color: var(--background-darkBlue);
+    outline-width: 0px;
+}
+
+.conBtn{
+    padding: 12px 32px;
+    border-radius: 8px;
+    font-size: 18px;
+    background-color: #3b547f;
+    margin-top: 16px;
+    transition: background-color 1.2s ease; 
+    &:hover{
+        background-color:  #678cd7 ;
+
+    }
+
+}
+
+@media(max-width:768){
+     .contInfoParent{
+        flex-direction: column;
+     }
+
+     
+     .form {
+        width: 100%;
+        flex-direction: column;        
+     }
+     .formChild{
+        flex-direction: column;
+     }    
+}
+@media(max-width: 390px){
+    .contactParent{
+        padding: 60px 16px;
+    }
+    .topPara{
+        width: 100%;
+        font-size: 14px;
+    }
+}
